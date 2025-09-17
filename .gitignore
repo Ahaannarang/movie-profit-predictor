@@ -1,3 +1,11 @@
+# Ignore raw dataset (Kaggle CSVs)
+data/
+
+# Ignore model outputs and generated artifacts
+artifacts/
+*.joblib
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
